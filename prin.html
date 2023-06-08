@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet/less" type="text/css" href="css/style.less" />
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="abc.scss">
+    <link rel="stylesheet" href="css/style.less">
+    <title>Oasis</title>
+    <style>
+        body {
+            background: #227E27;
+            /* Цвет фона */
+            color: #fc0;
+            /* Цвет текста */
+        }
+
+    </style>
+</head>
+<style> </style>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="images/Rectangle%202.png" width="100px" height="100px"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" style="color: black" ; id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"> Меню </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Донер</a>
+                                <a class="dropdown-item" href="#">Кебаб</a>
+                                <a class="dropdown-item" href="#">Бургеры </a>
+                                <a class="dropdown-item" href="#">Напитки</a>
+                                <div class="dropdown-divider"></div>
+                            </div>
+                        </li>
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item1">
+                                <a class="nav-link" href="https://nambafood.kg/oasis?language=ru">Доставка</a>
+                            </li>
+                            <li class="nav-item1">
+                                <a class="nav-link" href="#aca">Оплата</a>
+                            </li>
+
+                            <li class="nav-item1">
+                                <a class="nav-link" href="#">Бронь столика</a>
+                            </li>
+                            <li class="nav-item1">
+                                <a class="nav-link" href="#">О нас</a>
+                            </li>
+                        </ul>
+                        <div class="menu-right">
+                            <div class="menu-contact"></div>
+                            <a href="tel:+79639551441" style="color: black">
+                                <img src="images/phone.png">
+                                <span>+996 700 42 23 12</span>
+                                <div class="instargam">
+                                    <a href="https://vk.com/yrysbekov8">
+                                        <img src="images/mail.png">
+                                        <span style="color: black">oasiskg</span>
+                                    </a>
+                                </div>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+    </div>
+    <div class="booking">
+        <form class="guruweba_example_form" name="feedback" method="POST" action="/feedback.php">
+            <div class="guruweba_example_caption"> 
+                <h1>Бронирование</h1> 
+            </div>
+            <div class="guruweba_example_infofield"> 
+                <h3>Выберите столик</h3>
+            </div>
+            <select name="theme" required="required">
+            <option value="">Выберите вариант</option>
+            <option> Столик на 2-х</option>
+            <option> Столик на 3-х</option>
+            <option> Столик на 4-х</option>
+            <option> Столик более 4-х</option>
+            </select>
+            <div>
+                <h3>Ваше имя </h3>
+            </div>
+            <input type="text" name="name" required="required">
+            <div>
+                <h3>Номер телефона</h3>
+            </div>
+            <input type="email" name="email" required="required">
+            <div>
+                <h3>Дата</h3> 
+            </div>
+            <input name="guruweba_example_datetime-local" type="datetime-local" />
+            <div>
+                <h3>Коментарии</h3>   
+                <textarea name="message" cols="30" rows="4" placeholder="Введите сообщение"></textarea>
+            </div>
+            
+            <button name="btn1" type="button" a href="">Забронировать</button>
+        </form>
+    </div>
+    
+</body>
+
+</html>
